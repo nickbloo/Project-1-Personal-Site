@@ -21,6 +21,10 @@ body {
     margin: 0px;
 }
 
+p, ul {
+    font-size: 2em;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -40,6 +44,7 @@ footer {
 img {
     max-width: 30%;
     height: auto;
+    padding: 0px;
 }
 
 #about-img2, #about-text2, .right-title, #portfolio-pic2, #portfolio-text2 {
@@ -50,10 +55,6 @@ img {
 
 .divider-line {
     border: 1px solid black;
-}
-
-#firstdiv {
-    margin-top: 2%;
 }
 
 #my-work {
@@ -71,4 +72,9 @@ a {
 
 #first-home-div {
     font-family: Pacifico, cursive;
+}
+
+div {
+    padding-left: 20%;
+    padding-right: 20%;
 }
